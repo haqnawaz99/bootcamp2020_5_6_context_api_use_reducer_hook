@@ -3,7 +3,7 @@ import './App.css';
 import Parent from './Parent.js';
 import valueContext from './ValueContext.js';
 function App() {
-  let value = 67;
+  let value = useState(12);
   return (
     <valueContext.Provider value={value}>
     <div>
